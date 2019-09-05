@@ -1,0 +1,17 @@
+*.log 
+
+*.out
+
+*.aux
+
+*.gz
+
+*.tex
+
+*.toc
+
+*.bst
+
+*.zip
+
+*.sty
