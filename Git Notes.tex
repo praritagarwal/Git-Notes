@@ -4,6 +4,7 @@
 %\usepackage[nocompress]{cite}
 \usepackage{jheppub}
 
+\usepackage[dvipsnames]{xcolor}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{amsmath, amssymb}
@@ -312,9 +313,26 @@ Some notes on installing and using Git
 \begin{document}
 \maketitle
 
-\section{Introduction}
+\section{Installation}
 
+For a windows installation, one can easily follow the \href{https://classroom.udacity.com/courses/ud123/lessons/1b369991-f1ca-4d6a-ba8f-e8318d76322f/concepts/8a5af628-7a18-49cf-bbc8-02691762f862#}{instructions} given on Udacity's Git course.
 
+\noindent In order to configure the command prompt, as suggested by Udacity, a clearer set of instructions are provided in their tutorial for Mac/Linux set-up. Basically, one has to do the following:
+\begin{enumerate}
+\item Download the \textcolor{red}{udacity-terminal-config} zipped file from their Resources pane (top-right corner of Udacity's page for the lesson) and unzip it.
+
+\item Move the \textcolor{red}{udacity-terminal-config} folder to the home directory. In my case the path to the home folder is  \path{C:\Users\agarw}. 
+
+\item Rename the above folder to \textcolor{red}{.udacity-terminal-config} . Note that the changed name starts with a dot now.
+
+\item If a \textcolor{red}{\path{.bash_profile}} file does not exist in the home directory, then copy the \textcolor{red}{\path{bash_profile}} (there is no dot at the front) file from the \textcolor{red}{.udacity-terminal-config} folder above, to the home directory and rename it as \textcolor{red}{\path{.bash_profile}} (i.e. add a dot to the front of the name). 
+
+\item If the \textcolor{red}{\path{.bash_profile}} file already exists in the home directory, then simply copy the contents of the \textcolor{red}{\path{bash_profile}} file in the \textcolor{red}{.udacity-terminal-config} to the existing \textcolor{red}{\path{.bash_profile}} file. 
+\end{enumerate}
+
+\noindent Having done this, one can proceed to configure git as instructed in Udacity's course notes. 
+
+\noindent \textcolor{OliveGreen}{Tip}: Use the command \textcolor{purple}{git  config --list} (there is a double dash in front of list!) to view the configuration settings of git.
 
 \end{document}
 
