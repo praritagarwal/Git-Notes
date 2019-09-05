@@ -6,8 +6,6 @@
 
 *.gz
 
-*.tex
-
 *.toc
 
 *.bst
